@@ -1,3 +1,7 @@
-import {Layout} from '@lanshu/layout'
+import { Layout } from "@lanshu/layout";
 
-Layout();
+Layout({
+  platform: "government",
+}).catch((error) => {
+  console.error(error);
+});
